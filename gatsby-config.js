@@ -31,7 +31,9 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `exlfzmtf7rxl`,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        accessToken: process.env.'v36mqEkV3rcETSH32K2gKKK_CkRMgaW4jB2xsMMAAR4',
+        host: 'https://cdn.contentful.com',
+
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
